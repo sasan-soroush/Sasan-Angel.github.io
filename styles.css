@@ -478,7 +478,7 @@ template {
 }
 
 .display-4 {
-  font-size: 2.5rem
+  font-size: 3.5rem
 }
 
 hr {
@@ -9473,15 +9473,15 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .hero {
-  height: 50vh;
+  height: 100vh;
   position: relative;
   z-index: 3
 }
 
 .hero-background {
   width: 100%;
-  height: 50vh;
-  background-image: url('BG.png');
+  height: 100vh;
+  background-image: url('Images/BG.png');
   background-size: cover;
   background-position: 80%
 }
@@ -9501,13 +9501,13 @@ a.text-dark:focus, a.text-dark:hover {
 
 .hero-content {
   width: 100vw;
-  height: 50vh
+  height: 100vh
 }
 
 .hero-title {
   margin-top: auto;
   color: #fff;
-  font-size: 4rem
+  font-size: 5rem
 }
 
 .hero-title:after {

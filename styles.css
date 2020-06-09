@@ -478,7 +478,7 @@ template {
 }
 
 .display-4 {
-  font-size: 3.5rem
+  font-size: 1.5rem
 }
 
 hr {
@@ -9507,7 +9507,7 @@ a.text-dark:focus, a.text-dark:hover {
 .hero-title {
   margin-top: auto;
   color: #fff;
-  font-size: 5rem
+  font-size: 2.8rem
 }
 
 .hero-title:after {

@@ -9910,3 +9910,22 @@ h1, h2, h3, h4, h5, h6, .album-title, .album-description, .hero-title, .hero-slo
 	position:relative;
 	top:2px;
 }
+
+.typewriter h2 {
+
+  height: 50px;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em ; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .001em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}

@@ -9937,8 +9937,14 @@ h1, h2, h3, h4, h5, h6, .album-title, .album-description, .hero-title, .hero-slo
   padding-top: 24px;
   padding-bottom: 10px;
   border-radius: 2px;
+  white-space: nowrap;
 }
 
 .title-labels {
   color: black;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
